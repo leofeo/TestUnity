@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class UgaBugaScriptNextGeneration : MonoBehaviour
 {
-    private string gmo;
+    private string gmo2;
     private List<int> _arr;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,9 +13,9 @@ public class UgaBugaScriptNextGeneration : MonoBehaviour
             _arr.Add(i);
 
         foreach(int arr in _arr)
-            gmo += $"- это цифра {arr}";
+            gmo2 += $"- это цифра {arr}";
 
-        Debug.Log(gmo);
+        Debug.Log(gmo2);
     }
 
     // Update is called once per frame
