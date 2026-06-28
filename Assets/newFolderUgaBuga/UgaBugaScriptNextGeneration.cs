@@ -12,5 +12,6 @@ public class UgaBugaScriptNextGeneration : MonoBehaviour
     void Update()
     {
         Debug.Log("Днище");
+        Debug.Log("Сам ты днище");
     }
 }
