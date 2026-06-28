@@ -10,8 +10,8 @@ public class UgaBugaScriptNextGeneration : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        Debug.Log("Днище");
-        Debug.Log("Сам ты днище");
+    {       
+        for(int i =0; i < 10; i++)
+            Debug.Log("уга буга");
     }
 }
