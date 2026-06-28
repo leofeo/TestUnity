@@ -13,7 +13,7 @@ public class UgaBugaScriptNextGeneration : MonoBehaviour
             _arr.Add(i);
 
         foreach(int arr in _arr)
-            gmo2 += $"- это цифра {arr}";
+            gmo2 += $"- это ци222222222фра {arr}";
 
         Debug.Log(gmo2);
     }
